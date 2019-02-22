@@ -1,0 +1,91 @@
+
+* {
+	font-family: 'Zilla Slab', serif;
+}
+
+body {
+	background-color:black;
+}
+
+img {
+	width: 100%;
+}
+
+h1{
+	text-align: center; 
+}
+
+.top-image {
+	background-image: url(img/top.jpg);
+	height: 75vh;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+	padding-top: px;
+}
+
+.top-image h1 {
+	font-family: 'Zilla Slab', serif;
+	color: #690000;
+	text-transform: uppercase; text-align:center;
+	letter-spacing: 50px;
+	font-size: 80px;
+	font-family: courier;
+	font-style: bold;
+}
+
+.yellow-box {
+	background-color: #a09100;
+	text-align: center;
+	
+}
+.album {
+	:10px;
+}
+.yellow-box h1 {
+	box-shadow: inset 0 0 10px #000;
+	display:inline-block;
+	padding: 10px;
+}
+.yellow-box h2 {
+	box-shadow: inset 0 0 10px #000;
+	display:inline-block;
+	padding: 10px;
+}
+.yellow-box p {
+	text-align: center;
+	padding:10px;
+}
+.bottom-image {
+	background-image: url(img/bottom.jpg);
+	height: 75vh;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+	padding-top: 300px;
+	 filter:opacity(30%);
+}
+
+.bottom-image h2 {
+	font-family: 'Zilla Slab', serif;
+	color: #F5F2B8;
+	text-transform: uppercase; text-align:center;
+	letter-spacing: 80px;
+	font-size: 120px;
+	margin-left: 60px;
+	filter:opacity(100%);
+
+}
+ .parallax {
+  /* The image used */
+  background-image: url("img/top.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
